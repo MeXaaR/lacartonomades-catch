@@ -1,0 +1,33 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "com.mexar.lacartonomades",
+                    "com.mexar.lacartonomades"
+                ],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                    },
+                    {
+                        "/": "/*",
+                        "comment": "Matches any URL with a path that starts with /buy/."
+                    }
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "com.mexar.lacartonomades"
+        ]
+    },
+    "appclips": {
+        "apps": [
+            "ABCDE12345.com.example.MyApp.Clip"
+        ]
+    }
+}
