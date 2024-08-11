@@ -1,0 +1,61 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "1550644295.com.mexar.lacartonomades"
+                ],
+                "components": [
+                    {
+                        "/": "/",
+                        "comment": "Matches homepage only"
+                    },
+                    {
+                        "/": "/emails/*",
+                        "comment": "Matches any path under /emails/"
+                    },
+                    {
+                        "/": "/places/*",
+                        "comment": "Matches any path under /places/"
+                    }
+                ]
+            },
+            {
+                "appIDs": [
+                    "com.mexar.lacartonomades"
+                ],
+                "components": [
+                    {
+                        "/": "/",
+                        "comment": "Matches homepage only"
+                    },
+                    {
+                        "/": "/emails/*",
+                        "comment": "Matches any path under /emails/"
+                    },
+                    {
+                        "/": "/places/*",
+                        "comment": "Matches any path under /places/"
+                    }
+                ]
+            },
+            {
+                "appID": "com.mexar.lacartonomades",
+                "paths": [
+                    "/",
+                    "/emails/*",
+                    "/places/*"
+                ]
+            },
+            {
+                "appID": "1550644295.com.mexar.lacartonomades",
+                "paths": [
+                    "/",
+                    "/emails/*",
+                    "/places/*"
+                ]
+            }
+        ]
+    }
+}
