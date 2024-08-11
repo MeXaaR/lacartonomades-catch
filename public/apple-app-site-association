@@ -1,20 +1,7 @@
 {
     "applinks": {
-        "apps": [
-            "RAGBR73TBD.com.mexar.lacartonomades"
-        ],
+        "apps": [],
         "details": [
-            {
-                "appIDs": [
-                    "RAGBR73TBD.com.mexar.lacartonomades"
-                ],
-                "components": [
-                    {
-                        "/": "/*",
-                        "comment": "Matches all"
-                    }
-                ]
-            },
             {
                 "appID": "RAGBR73TBD.com.mexar.lacartonomades",
                 "paths": [
