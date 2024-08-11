@@ -3,18 +3,16 @@
         "details": [
             {
                 "appIDs": [
-                    "com.mexar.lacartonomades",
                     "com.mexar.lacartonomades"
                 ],
                 "components": [
                     {
-                        "#": "no_universal_links",
-                        "exclude": true,
-                        "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+                        "/": "/emails/*",
+                        "comment": "Matches any URL with a path that starts with /emails/."
                     },
                     {
-                        "/": "/*",
-                        "comment": "Matches any URL with a path that starts with /buy/."
+                        "/": "/places/*",
+                        "comment": "Matches any URL with a path that starts with /places/."
                     }
                 ]
             }
@@ -27,7 +25,7 @@
     },
     "appclips": {
         "apps": [
-            "ABCDE12345.com.example.MyApp.Clip"
+            "com.mexar.lacartonomades"
         ]
     }
 }
