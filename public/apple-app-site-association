@@ -2,8 +2,25 @@
     "applinks": {
         "details": [
             {
+                "appID": "RAGBR73TBD.com.mexar.lacartonomades",
+                "paths": [
+                    "*",
+                    "/emails/*",
+                    "/places/*"
+                ]
+            },
+            {
+                "appID": "P8E697485C.com.mexar.lacartonomades",
+                "paths": [
+                    "*",
+                    "/emails/*",
+                    "/places/*"
+                ]
+            },
+            {
                 "appIDs": [
-                    "RAGBR73TBD.com.mexar.lacartonomades"
+                    "RAGBR73TBD.com.mexar.lacartonomades",
+                    "P8E697485C.com.mexar.lacartonomades"
                 ],
                 "components": [
                     {
@@ -26,12 +43,11 @@
     },
     "webcredentials": {
         "apps": [
+            "P8E697485C.com.mexar.lacartonomades",
             "RAGBR73TBD.com.mexar.lacartonomades"
         ]
     },
     "appclips": {
-        "apps": [
-            "RAGBR73TBD.com.mexar.lacartonomades.MyApp.Clip"
-        ]
+        "apps": []
     }
 }
