@@ -25,17 +25,11 @@
                 ],
                 "components": [
                     {
-                        "#": "no_universal_links",
-                        "exclude": true,
-                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
-                    },
-                    {
                         "/": "/emails/*",
                         "comment": "Matches any URL whose path starts with /emails/"
                     },
                     {
                         "/": "/places/*",
-                        "exclude": true,
                         "comment": "Matches any URL whose path starts with /places/ and instructs the system not to open it as a universal link"
                     }
                 ]
