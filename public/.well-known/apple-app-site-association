@@ -3,9 +3,48 @@
         "apps": [],
         "details": [
             {
-                "appID": "com.mexar.lacartonomades",
+                "appIDs": [
+                    "1550644295.com.mexar.lacartonomades.development",
+                    "1550644295.com.mexar.lacartonomades.test",
+                    "1550644295.com.mexar.lacartonomades"
+                ],
+                "components": [
+                    {
+                        "/": "/",
+                        "comment": "Matches homepage only"
+                    },
+                    {
+                        "/": "/emails/*",
+                        "comment": "Matches any path under /emails/"
+                    },
+                    {
+                        "/": "/places/*",
+                        "comment": "Matches any path under /places/"
+                    }
+                ]
+            },
+            {
+                "appID": "1550644295.com.mexar.lacartonomades.development",
                 "paths": [
-                    "*"
+                    "/",
+                    "/emails/*",
+                    "/places/*"
+                ]
+            },
+            {
+                "appID": "1550644295.com.mexar.lacartonomades.test",
+                "paths": [
+                    "/",
+                    "/emails/*",
+                    "/places/*"
+                ]
+            },
+            {
+                "appID": "1550644295.com.mexar.lacartonomades",
+                "paths": [
+                    "/",
+                    "/emails/*",
+                    "/places/*"
                 ]
             }
         ]
