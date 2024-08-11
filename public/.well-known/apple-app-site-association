@@ -1,31 +1,13 @@
 {
     "applinks": {
+        "apps": [],
         "details": [
             {
-                "appIDs": [
-                    "com.mexar.lacartonomades"
-                ],
-                "components": [
-                    {
-                        "/": "/emails/*",
-                        "comment": "Matches any URL with a path that starts with /emails/."
-                    },
-                    {
-                        "/": "/places/*",
-                        "comment": "Matches any URL with a path that starts with /places/."
-                    }
+                "appID": "com.mexar.lacartonomades",
+                "paths": [
+                    "*"
                 ]
             }
-        ]
-    },
-    "webcredentials": {
-        "apps": [
-            "com.mexar.lacartonomades"
-        ]
-    },
-    "appclips": {
-        "apps": [
-            "com.mexar.lacartonomades"
         ]
     }
 }
