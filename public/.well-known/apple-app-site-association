@@ -1,6 +1,8 @@
 {
     "applinks": {
-        "apps": [],
+        "apps": [
+            "RAGBR73TBD.com.mexar.lacartonomades"
+        ],
         "details": [
             {
                 "appIDs": [
@@ -8,25 +10,15 @@
                 ],
                 "components": [
                     {
-                        "/": "/",
-                        "comment": "Matches homepage only"
-                    },
-                    {
-                        "/": "/emails/*",
-                        "comment": "Matches any path under /emails/"
-                    },
-                    {
-                        "/": "/places/*",
-                        "comment": "Matches any path under /places/"
+                        "/": "/*",
+                        "comment": "Matches all"
                     }
                 ]
             },
             {
                 "appID": "RAGBR73TBD.com.mexar.lacartonomades",
                 "paths": [
-                    "/",
-                    "/emails/*",
-                    "/places/*"
+                    "*"
                 ]
             }
         ]
