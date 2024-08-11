@@ -1,28 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    reactStrictMode: true,
-    swcMinify: true,
-    async headers() {
-        return [
-            {
-                // Match all API routes
-                source: "/apple-app-site-association",
-                headers: [
-                    {
-                        key: "Content-Type",
-                        value: "application/json",
-                    },
-                ],
-            },
-        ];
-    },
-}
-
+// next.config.js
 module.exports = {
-    ...nextConfig,
-    output: 'export',
-    images: {
-        unoptimized: true,
-    },
-}
-
+    experimental: {
+        headers() {
+            return [
+                {
+                    source: "/.well-known/apple-app-site-association",
+                    headers: [{ key: "content-type", value: "application/json" }]
+                }
+            ];
+        }
+    }
+};
