@@ -5,9 +5,9 @@
         ],
         "target": {
             "namespace": "android_app",
-            "package_name": "{package_name}",
+            "package_name": "com.mexar.lacartonomades2",
             "sha256_cert_fingerprints": [
-                "{sha256_cert_fingerprints}"
+                "F5:3A:8C:21:6B:2C:2A:E3:05:C8:F5:83:AB:CB:B6:F5:8F:D6:37:86:75:1E:5E:F4:AB:66:85:CB:E4:35:66:88"
             ]
         }
     }
