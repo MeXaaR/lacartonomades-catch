@@ -11,17 +11,8 @@
                 ]
             },
             {
-                "appID": "P8E697485C.com.mexar.lacartonomades",
-                "paths": [
-                    "*",
-                    "/emails/*",
-                    "/places/*"
-                ]
-            },
-            {
                 "appIDs": [
-                    "RAGBR73TBD.com.mexar.lacartonomades",
-                    "P8E697485C.com.mexar.lacartonomades"
+                    "RAGBR73TBD.com.mexar.lacartonomades"
                 ],
                 "components": [
                     {
@@ -31,6 +22,10 @@
                     {
                         "/": "/places/*",
                         "comment": "Matches any URL whose path starts with /places/ and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/*",
+                        "comment": "Matches any URL"
                     }
                 ]
             }
@@ -38,8 +33,7 @@
     },
     "webcredentials": {
         "apps": [
-            "P8E697485C.com.mexar.lacartonomades",
-            "RAGBR73TBD.com.mexar.lacartonomades"
+            "P8E697485C.com.mexar.lacartonomades"
         ]
     },
     "appclips": {
