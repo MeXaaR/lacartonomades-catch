@@ -3,11 +3,34 @@
         "apps": [],
         "details": [
             {
+                "appIDs": [
+                    "RAGBR73TBD.com.mexar.lacartonomades"
+                ],
+                "components": [
+                    {
+                        "#": "no_universal_links",
+                        "exclude": true,
+                        "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+                    },
+                    {
+                        "/": "/*",
+                        "comment": "Matches any URL whose path starts with /"
+                    }
+                ]
+            },
+            {
                 "appID": "RAGBR73TBD.com.mexar.lacartonomades",
                 "paths": [
-                    "*"
+                    "/emails/*",
+                    "/account/*",
+                    "/*"
                 ]
             }
+        ]
+    },
+    "activitycontinuation": {
+        "apps": [
+            "RAGBR73TBD.com.mexar.lacartonomades"
         ]
     }
 }

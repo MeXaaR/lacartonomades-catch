@@ -6,7 +6,7 @@ module.exports = {
                 headers: [
                     {
                         key: 'Content-Type',
-                        value: 'application/json',
+                        value: 'application/pkcs7-mime',
                     },
                 ],
             },
@@ -15,7 +15,7 @@ module.exports = {
                 headers: [
                     {
                         key: 'Content-Type',
-                        value: 'application/json',
+                        value: 'application/pkcs7-mime',
                     },
                 ],
             },
